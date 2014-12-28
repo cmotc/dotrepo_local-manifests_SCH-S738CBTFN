@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
-      <project name="cmotc/android_kernel_samsung_schS738c" path="kernel/samsung/schS738c" remote="github" revision="experimental_backport-3.16-5" />
-      <project name="cmotc/android_hardware_atheros_ath6kl" path="hardware/atheros/ath6kl" remote="github" revision="cm-10.1" />
-      <project name="cmotc/android_kernel_samsung_schS738c_firmware_ath6k" path="kernel/samsung/schS738c/firmware/ath6k" remote="github" revision="master" />
+      <project name="cmotc/android_kernel_aurora_schS738c" path="kernel/samsung/schS738c" remote="github" revision="master" />
       <project name="cmotc/android_device_samsung-schS738c" path="device/samsung/schS738c" remote="github" revision="master" />
       <project name="cmotc/android_vendor_samsung_schS738c" path="vendor/samsung/schS738c" remote="github" revision="master" />
     </manifest>
