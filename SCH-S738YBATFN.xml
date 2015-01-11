@@ -7,7 +7,6 @@
       <project name="cmotc/hardware_qcom_msm7k" path="hardware/qcom/msm7k" remote="github" revision="master" />
       <project name="cmotc/platform_hardware_msm7k" path="platform/hardware/msm7k" remote="github" revision="ics" />
       <project name="cmotc/android_hardware_qcom_display-legacy" path="android/hardware/qcom/display" remote="github" revision="cm10.2">
-      <project name="cmotc/hardware_qcom_display-legacy" path="hardware/qcom/display" remote="github" revision="kk-msm7x30">
       <project name="cmotc/android_device_samsung-schS738c" path="device/samsung/schS738c" remote="github" revision="master" />
       <project name="cmotc/android_vendor_samsung_schS738c" path="vendor/samsung/schS738c" remote="github" revision="master" />
     </manifest>
