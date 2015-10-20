@@ -25,7 +25,21 @@
       <project name="cmotc/android_hardware_qcom_fm" path="hardware/com/fm-mr1" remote="github" revision="cm-11.0" />
       <project name="cmotc/android_packages_apps_FM2" path="packages/apps/FM2" remote="github" revision="cm-11.0" />
 
-<!--      <project name="cmotc/android_external_webkit" path="external/webkit" remote="github" revision="cm-11.0" />-->
+	  <remove project name="CyanogenMod/android_external_bluetooth"/>
+      <remove project name="CyanogenMod/android_external_chromium"/>
+      <remove project name="CyanogenMod/android_external_dnsmasq"/>
+      <remove project name="CyanogenMod/android_external_e2fsprogs"/>
+      <remove project name="CyanogenMod/android_external_iproute2"/>
+      <remove project name="CyanogenMod/android_external_tslib" />
+      <remove project name="CyanogenMod/android_external_webkit" />
+
+      <project name="cmotc/schs738c-external_bluetooth" path="external/bluetooth" remote="github" revision="master" />
+      <project name="cmotc/schs738c-external_chromium" path="external/chromium" remote="github" revision="master" />
+      <project name="cmotc/schs738c-external_dnsmasq" path="external/dnsmasq" remote="github" revision="master" />
+      <project name="cmotc/schs738c-external_e2fsprogs" path="external/e2fsprogs" remote="github" revision="master" />
+      <project name="cmotc/schs738c-external_iproute2" path="external/iproute2" remote="github" revision="master" />
+      <project name="cmotc/schs738c-external_tslib" path="external/tslib" remote="github" revision="master" />
+      <project name="cmotc/schs738c-external_webkit" path="external/webkit" remote="github" revision="master" />
 
     </manifest>
 
