@@ -20,7 +20,7 @@
 	  <remove-project name="android_bionic" />
 	  <remove-project name="android_libcore" />
 	  
-      <remove-project name="platform_external_chromium" />
+      <!--<remove-project name="platform_external_chromium" />-->
       <remove-project name="platform_external_dnsmasq" />
       <remove-project name="platform_external_e2fsprogs" />
       <remove-project name="platform_external_iproute2" />
