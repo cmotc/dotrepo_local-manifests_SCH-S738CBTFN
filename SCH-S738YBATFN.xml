@@ -19,6 +19,7 @@
 -->
 	  <remove-project name="CyanogenMod/android_bionic" />
 	  <remove-project name="CyanogenMod/android_libcore" />
+	  
 	  <remove-project name="CyanogenMod/android_external_bluetooth" />
       <remove-project name="CyanogenMod/android_external_chromium" />
       <remove-project name="CyanogenMod/android_external_dnsmasq" />
@@ -29,6 +30,7 @@
 	  
 	  <project name="cmotc/schs738c-bionic" path="android/bionic" remote="github" revision="master" />
 	  <project name="cmotc/schs738c-libcore" path="android/libcore" remote="github" revision="master" />
+	  
       <project name="cmotc/schs738c-external_bluetooth" path="external/bluetooth" remote="github" revision="master" />
       <project name="cmotc/schs738c-external_chromium" path="external/chromium" remote="github" revision="master" />
       <project name="cmotc/schs738c-external_dnsmasq" path="external/dnsmasq" remote="github" revision="master" />
