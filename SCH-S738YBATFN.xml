@@ -20,7 +20,6 @@
 	  <remove-project name="android_bionic" />
 	  <remove-project name="android_libcore" />
 	  
-	  <remove-project name="android_external_bluetooth" />
       <remove-project name="android_external_chromium" />
       <remove-project name="android_external_dnsmasq" />
       <remove-project name="android_external_e2fsprogs" />
