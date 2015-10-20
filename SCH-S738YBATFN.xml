@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
 
+
+  <remote  name="cmotc"
+           fetch="https://github.com/cmotc" />
+
 <!-- Device-specific repositories -->
 
       <project name="cmotc/android_kernel_samsung_schS738c" path="kernel/samsung/schS738c" remote="github" revision="master" />
