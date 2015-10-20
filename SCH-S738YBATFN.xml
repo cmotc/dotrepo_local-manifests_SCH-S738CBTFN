@@ -17,8 +17,8 @@
       <project name="cmotc/android_hardware_qcom_fm" path="hardware/com/fm-mr1" remote="github" revision="cm-11.0" />
       <project name="cmotc/android_packages_apps_FM2" path="packages/apps/FM2" remote="github" revision="cm-11.0" />
 -->
-	  <remove-project name="omnirom/android_bionic" />
-	  <remove-project name="omnirom/android_libcore" />
+	  <remove-project name="android/bionic" />
+	  <remove-project name="android/libcore" />
 	  
 	  <remove-project name="CyanogenMod/android_external_bluetooth" />
       <remove-project name="CyanogenMod/android_external_chromium" />
