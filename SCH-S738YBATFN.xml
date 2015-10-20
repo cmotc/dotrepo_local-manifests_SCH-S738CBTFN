@@ -20,12 +20,11 @@
 	  <remove-project name="android_bionic" />
 	  <remove-project name="android_libcore" />
 	  
-      <remove-project name="android_external_chromium" />
-      <remove-project name="android_external_dnsmasq" />
-      <remove-project name="android_external_e2fsprogs" />
-      <remove-project name="android_external_iproute2" />
-      <remove-project name="android_external_tslib" />
-      <remove-project name="android_external_webkit" />
+      <remove-project name="platform_external_chromium" />
+      <remove-project name="platform_external_dnsmasq" />
+      <remove-project name="platform_external_e2fsprogs" />
+      <remove-project name="platform_external_iproute2" />
+      <!--<remove-project name="android_external_webkit" />-->
 	  
 	  <project name="cmotc/schs738c-bionic" path="bionic" remote="github" revision="master" />
 	  <project name="cmotc/schs738c-libcore" path="libcore" remote="github" revision="master" />
