@@ -22,7 +22,7 @@
 	  
       <!--<remove-project name="platform_external_chromium" />-->
       <remove-project name="platform/external/dnsmasq" />
-      <remove-project name="platform/external/e2fsprogs" />
+      <remove-project name="android_external_e2fsprogs" />
       <remove-project name="platform/external/iproute2" />
       <!--<remove-project name="platform_external_webkit" />-->
 	  
