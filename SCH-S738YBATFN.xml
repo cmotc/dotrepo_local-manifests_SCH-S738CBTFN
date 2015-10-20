@@ -9,7 +9,7 @@
 
       
       <project name="cmotc/android_device_samsung_schS738c" path="device/samsung/schS738c" remote="github" revision="master" />
-<!--      Moved to *.dependencies file
+<!--      Moved to *.dependencies files.
       <project name="cmotc/android_kernel_samsung_schS738c" path="kernel/samsung/schS738c" remote="github" revision="master" />
       <project name="cmotc/android_vendor_samsung_schS738c" path="vendor/samsung/schS738c" remote="github" revision="master" />
 -->
@@ -34,7 +34,7 @@
 	  <project name="cmotc/schs738c-bionic" path="bionic" remote="github" revision="master" />
 	  <project name="cmotc/schs738c-libcore" path="libcore" remote="github" revision="master" />
 
-<!--	  
+<!--	Moved to *.dependencies files.
       <project name="cmotc/schs738c-external_bluetooth" path="external/bluetooth" remote="github" revision="master" />
       <project name="cmotc/schs738c-external_chromium" path="external/chromium" remote="github" revision="master" />
 -->
@@ -43,10 +43,11 @@
       <project name="cmotc/schs738c-external_e2fsprogs" path="external/e2fsprogs" remote="github" revision="master" />
       <project name="cmotc/schs738c-external_iproute2" path="external/iproute2" remote="github" revision="master" />
 
-<!--
+<!--	Moved to *.dependencies files.
       <project name="cmotc/schs738c-external_tslib" path="external/tslib" remote="github" revision="master" />
       <project name="cmotc/schs738c-external_webkit" path="external/webkit" remote="github" revision="master" />
 -->
 
     </manifest>
 
+ 
