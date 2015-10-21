@@ -8,45 +8,30 @@
 <!-- Device-specific repositories -->
 
       
-      <project name="cmotc/android_device_samsung_schS738c" path="device/samsung/schS738c" remote="github" revision="master" />
-<!--      Moved to *.dependencies files.
-      <project name="cmotc/android_kernel_samsung_schS738c" path="kernel/samsung/schS738c" remote="github" revision="master" />
-      <project name="cmotc/android_vendor_samsung_schS738c" path="vendor/samsung/schS738c" remote="github" revision="master" />
--->
+    <project name="cmotc/android_device_samsung_schS738c" path="device/samsung/schS738c" remote="github" revision="master" />
 
 <!-- Cyanogenmod Backports from LegaCyMod -->
 
 <!--
-      <project name="cmotc/android_hardware_atheros_ath6kl" path="hardware/atheros/wlan" remote="github" revision="master" />
-      <project name="cmotc/android_hardware_atheros_ath6kl-compat" path="hardware/atheros/ath6kl-compat" remote="github" revision="master" />
+    <project name="cmotc/android_hardware_atheros_ath6kl" path="hardware/atheros/wlan" remote="github" revision="master" />
+    <project name="cmotc/android_hardware_atheros_ath6kl-compat" path="hardware/atheros/ath6kl-compat" remote="github" revision="master" />
 
-      <project name="cmotc/android_hardware_qcom_display-legacy-1" path="hardware/qcom/display-legacy" remote="github" revision="jellybean-mr2" />
-      <project name="cmotc/android_hardware_qcom_fm" path="hardware/com/fm-mr1" remote="github" revision="cm-11.0" />
-      <project name="cmotc/android_packages_apps_FM2" path="packages/apps/FM2" remote="github" revision="cm-11.0" />
+    <project name="cmotc/android_hardware_qcom_display-legacy-1" path="hardware/qcom/display-legacy" remote="github" revision="jellybean-mr2" />
+    <project name="cmotc/android_hardware_qcom_fm" path="hardware/com/fm-mr1" remote="github" revision="cm-11.0" />
+    <project name="cmotc/android_packages_apps_FM2" path="packages/apps/FM2" remote="github" revision="cm-11.0" />
 -->
-	  <remove-project name="android_bionic" />
-	  <remove-project name="android_libcore" />
+	<remove-project name="android_bionic" />
+	<remove-project name="android_libcore" />
+    <project name="cmotc/schs738c-bionic" path="bionic" remote="github" revision="master" />
+	<project name="cmotc/schs738c-libcore" path="libcore" remote="github" revision="master" />
+
 	  
-      <remove-project name="platform/external/dnsmasq" />
-      <remove-project name="android_external_e2fsprogs" />
-      <remove-project name="platform/external/iproute2" />
-	  
-	  <project name="cmotc/schs738c-bionic" path="bionic" remote="github" revision="master" />
-	  <project name="cmotc/schs738c-libcore" path="libcore" remote="github" revision="master" />
-
-<!--	Moved to *.dependencies files.
-      <project name="cmotc/schs738c-external_bluetooth" path="external/bluetooth" remote="github" revision="master" />
-      <project name="cmotc/schs738c-external_chromium" path="external/chromium" remote="github" revision="master" />
--->
-
-      <project name="cmotc/schs738c-external_dnsmasq" path="external/dnsmasq" remote="github" revision="master" />
-      <project name="cmotc/schs738c-external_e2fsprogs" path="external/e2fsprogs" remote="github" revision="master" />
-      <project name="cmotc/schs738c-external_iproute2" path="external/iproute2" remote="github" revision="master" />
-
-<!--	Moved to *.dependencies files.
-      <project name="cmotc/schs738c-external_tslib" path="external/tslib" remote="github" revision="master" />
-      <project name="cmotc/schs738c-external_webkit" path="external/webkit" remote="github" revision="master" />
--->
+    <remove-project name="platform/external/dnsmasq" />
+    <remove-project name="android_external_e2fsprogs" />
+    <remove-project name="platform/external/iproute2" />
+    <project name="cmotc/schs738c-external_dnsmasq" path="external/dnsmasq" remote="github" revision="master" />
+    <project name="cmotc/schs738c-external_e2fsprogs" path="external/e2fsprogs" remote="github" revision="master" />
+    <project name="cmotc/schs738c-external_iproute2" path="external/iproute2" remote="github" revision="master" />
 
     </manifest>
 
